@@ -28,11 +28,11 @@ section {
     
 }
 
-/* .me{
+.me{
     margin-bottom: 0;
     padding-bottom: 0;
-    vertical-align: bottom;
-} */
+    
+}
 
 .food-description-style {
     text-align: left;
