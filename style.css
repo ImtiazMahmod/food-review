@@ -27,9 +27,7 @@ section {
     width: 80%;
    
 }
-#me{
-    margin-bottom: 0;
-}
+
 .food-description-style {
     text-align: left;
     padding: 3%;
@@ -42,7 +40,8 @@ section {
     padding: 15px 30px;
     background: linear-gradient(90deg, orange, tomato);
     border-radius: 50px;
-    margin-top: auto;
+    margin-top: 50px;
+    position: absolute;
 }
 
 .background-frame {
@@ -74,6 +73,14 @@ section {
     width: 100%;
     border-radius: 20px;
    
+}
+
+.my-recipies-item:hover{
+    border: 5px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-radius: 20px;
+    border-image-slice: 10;
+    
 }
 
 .achievement{
