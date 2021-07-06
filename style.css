@@ -84,3 +84,10 @@ section {
     width: 30%;
     margin-left: 10%;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
