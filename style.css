@@ -43,7 +43,7 @@ section {
 }
 
 .background-frame {
-    background-image: url(/images/shapes/bg-frame.png);
+    background-image: url(images/shapes/bg-frame.png);
     background-size: cover;
 }
 
