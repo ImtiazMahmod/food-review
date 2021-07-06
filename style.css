@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.higlight-color {
+    color: orange
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.food-description-style {
+    text-align: left;
+    padding: 3%;
+    color: rgb(73, 73, 73);
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, orange, tomato);
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.background-frame {
+    background-image: url(/images/shapes/bg-frame.png);
+    background-size: cover;
+}
+
+.my-recipies{
+   display: block;
+   width: 50%;
+   margin: auto;
+   margin-top: 5%;
+    text-align: center;
+}
+
+.my-recipies-item{
+    width: 25%;
+    height: 100px;
+}
+
+.my-recipies-item img{
+    width: 100%;
+}
