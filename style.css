@@ -18,9 +18,7 @@ section {
 
 .half-width {
     width: 50%;
-    margin-left: 4%;
-    margin-top: 4%;
-    margin-bottom: 5%;
+    margin:5%;
 }
 
 .half-width img {
@@ -41,7 +39,7 @@ section {
     padding: 15px 30px;
     background: linear-gradient(90deg, orange, tomato);
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     position: absolute;
     box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.664);
 }
