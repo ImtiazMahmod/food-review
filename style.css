@@ -25,8 +25,14 @@ section {
 
 .half-width img {
     width: 80%;
-   
+    
 }
+
+/* .me{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    vertical-align: bottom;
+} */
 
 .food-description-style {
     text-align: left;
@@ -50,15 +56,15 @@ section {
     background-size: cover;
 }
 
-.my-recipies{
-   display: block;
-   width: 50%;
-   margin: auto;
-   margin-top: 5%;
+.my-recipies {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
     text-align: center;
 }
 
-.my-recipies-item{
+.my-recipies-item {
     width: 22%;
     height: auto;
     margin-left: 6%;
@@ -69,21 +75,19 @@ section {
     padding: 1%;
 }
 
-.my-recipies-item img{
+.my-recipies-item img {
     width: 100%;
     border-radius: 20px;
-   
+
 }
 
-.my-recipies-item:hover{
+.my-recipies-item:hover {
     border: 5px solid;
     border-image: linear-gradient(tomato, orange);
-    border-radius: 20px;
-    border-image-slice: 10;
-    
+
 }
 
-.achievement{
+.achievement {
     display: flex;
     padding: 20px;
     box-shadow: 2px 2px 25px lightgray;
@@ -91,17 +95,18 @@ section {
     border-radius: 20px;
 }
 
-.achievement-criteria{
+.achievement-criteria {
     width: 30%;
     margin-left: 10%;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 30px;
 }
-footer p{
+
+footer p {
     font-size: small;
 }
