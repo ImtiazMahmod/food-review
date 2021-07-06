@@ -25,8 +25,11 @@ section {
 
 .half-width img {
     width: 80%;
+   
 }
-
+#me{
+    margin-bottom: 0;
+}
 .food-description-style {
     text-align: left;
     padding: 3%;
@@ -39,11 +42,12 @@ section {
     padding: 15px 30px;
     background: linear-gradient(90deg, orange, tomato);
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: auto;
 }
 
 .background-frame {
     background-image: url(images/shapes/bg-frame.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -90,4 +94,7 @@ footer{
     color: white;
     text-align: center;
     padding: 30px;
+}
+footer p{
+    font-size: small;
 }
