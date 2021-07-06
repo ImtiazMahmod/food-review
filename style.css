@@ -48,6 +48,7 @@ section {
     border-radius: 50px;
     margin-top: 50px;
     position: absolute;
+    box-shadow: 1px 1px 10px  rgba(255, 166, 0, 0.664);
 }
 
 .background-frame {
@@ -77,14 +78,12 @@ section {
 
 .my-recipies-item img {
     width: 100%;
-    border-radius: 20px;
-
+    border-radius: 20px;   
 }
 
 .my-recipies-item:hover {
     border: 5px solid;
     border-image: linear-gradient(tomato, orange);
-
 }
 
 .achievement {
